@@ -1,0 +1,14 @@
+{
+  "name": "test-1",
+  "version": "1.0.0",
+  "description": "Abbeal test 1",
+  "main": "index.js",
+  "scripts": {
+    "test": "jasmine"
+  },
+  "author": "Ivan Galiatin",
+  "license": "ISC",
+  "devDependencies": {
+    "jasmine": "^3.3.1"
+  }
+}

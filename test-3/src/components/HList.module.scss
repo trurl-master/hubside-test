@@ -1,0 +1,56 @@
+.hlist {
+    
+    list-style-type: none;
+    // padding-left: 0;
+
+    // ul {
+    //     list-style-type: none;
+    //     // padding: 0;
+    // }
+
+    // ul {
+    //     > li {
+    //         background: rgba(0,0,0,.2);
+    //     }
+    // }
+
+    // li {
+    //     margin-bottom: 1rem;
+    // }
+
+    // input {
+    // }
+
+    .li {
+        position: relative;
+    }
+
+    .controls {
+        position: absolute;
+        top: 0.4rem;
+        left: -2.8rem;
+    }
+
+    .indent-button,
+    .deindent-button {
+        display: inline-block;
+        background: white;
+        border: 0;
+        cursor: pointer;
+        padding: .1rem .4rem;
+
+        &:disabled {
+            opacity: 0.3;
+            cursor: default;
+        }
+    }
+
+    .indent-button {
+        color: rgb(93, 93, 231);
+    }
+
+    .deindent-button {
+        color: rgb(231, 93, 93);
+    }
+
+}
